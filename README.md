@@ -1,11 +1,11 @@
 # MIAGe Master 1 - TP Tests 1
 
-### NOM : DOE
-### Prénom : John
+### NOM : FERNANDEZ
+### Prénom : Xavier
 ### Groupe de TP : 
 - [ ] 1
-- [x] 2
-- [ ] 3
+- [ ] 2
+- [X] 3
 
 
 ### 0. Création et initialisation du projet Maven "question-score-project"
