@@ -33,4 +33,14 @@ public class ScoreCalculateurTest {
     public void testCalculScoreQuestionAChoixMultiple235() {
         assertEquals("Le score obtenu n'est pas le bon !", 100, this.scoreCalculateur.calculeScore(Arrays.asList(2, 3, 5), this.questionAChoixMultiple), 0.01);
     }
+
+    @Test
+    public void testCalculScoreQuestionAChoixMultiple12345() {
+        assertEquals("Le score obtenu n'est pas le bon !", 0, this.scoreCalculateur.calculeScore(Arrays.asList(1, 2, 3, 4, 5), this.questionAChoixMultiple), 0.01);
+    }
+
+    @Test
+    public void testCalculScoreQuestionAChoixMultiple123() {
+        assertEquals("Le score obtenu n'est pas le bon !", 16.66, this.scoreCalculateur.calculeScore(Arrays.asList(1, 2, 3), this.questionAChoixMultiple), 0.01);
+    }
 }
